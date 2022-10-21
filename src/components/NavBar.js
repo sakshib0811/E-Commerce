@@ -86,17 +86,18 @@ function NavBar() {
           </h4>
           <div className="btn" style={{ width: "10rem" }}>
             <Button
-              variant="contained"
+              // variant="contained"
               style={{
                 height: "2.5rem",
                 marginTop: "1.5rem",
                 opacity: "initial",
                 marginLeft: "2rem",
                 width: "max-content",
-                textTransform: "lowercase",
+                textTransform: "none",
                 fontSize: "16px",
                 borderRadius: "7px",
                 backgroundColor: "#ea4c89",
+                color: "white",
               }}
             >
               Share my work
