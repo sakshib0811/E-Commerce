@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.title{
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    /* margin-right: 1rem; */
+    padding-right: 1.7rem;
+    margin-right: 16px;
+    font-weight: 500;
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+}
+
+.title:hover{
+    color: #6e6e72;
+    cursor: pointer;
+}
+
+.navbar-list{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    overflow: hidden;
+    height: 2rem;
+    margin: 0;
+    /* padding: 1.2rem; */
+    margin-left: -12rem;
+    padding-top: 1.6rem;
+    padding-left: 0px;
+}
+
+.list-items-style {
+    margin-left: 2.5rem;
+    color: #6e6e72;
+    font-weight: 500;
+}
+
+.list-items-style:hover{
+    cursor: pointer;
+    color: black;
+}
